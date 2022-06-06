@@ -147,7 +147,7 @@ section .row .col:nth-child(2) {
   margin: 0 40px;
 }
 
-.card i {
+section.primacy .row .col .card .card-header i {
   color: #0099ff;
   font-size: 40px;
 }
@@ -155,4 +155,51 @@ section .row .col:nth-child(2) {
 .card-body {
   color: #aaa;
   line-height: 30px;
+}
+
+.section-header {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.services hr {
+  width: 25px;
+  border: 1px solid salmon;
+}
+
+.section-header h3 {
+  color: salmon;
+}
+
+.section-header p {
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+.services .row {
+  text-align: center;
+}
+
+.services .row {
+  margin-bottom: 60px;
+}
+
+.services .card-body, .services .card-icon, .services .card-header {
+  text-align: left !important;
+}
+
+.card-icon {
+  float: left;
+  margin-right: 20px;
+}
+
+section.services .row .col .card .card-icon i {
+  color: salmon;
+  font-size: 40px;
+}
+
+* {
+  /* border: 1px solid black;
+  margin: 5px; */
 }
