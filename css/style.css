@@ -25,6 +25,7 @@ html, body {
 }
 
 body {
+  height: 2000em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -100,7 +101,7 @@ a {
 
 .text-jumbotron {
   margin-top: 70px;
-  margin-left: 80px;
+  margin-left: 68px;
   float: left;
 }
 
@@ -131,4 +132,27 @@ a {
 .text-jumbotron .jumbotron-btn-2 {
   margin-left: 5px;
   background: salmon;
+}
+
+section .row {
+  margin-left: 75px;
+}
+
+main section.primacy .row .col {
+  width: 30%;
+  display: inline-block;
+}
+
+section .row .col:nth-child(2) {
+  margin: 0 40px;
+}
+
+.card i {
+  color: #0099ff;
+  font-size: 40px;
+}
+
+.card-body {
+  color: #aaa;
+  line-height: 30px;
 }
