@@ -466,6 +466,10 @@ footer i {
     display: block !important;
   }
 
+  .course-goal .section-header {
+    padding: 50px !important;
+  }
+
   .course-goal .col {
     width: 100% !important;
     margin: 50px auto !important;
