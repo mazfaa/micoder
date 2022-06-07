@@ -264,7 +264,7 @@ section.services .row .col .card .card-icon i {
   display: inline-block;
   border-radius: 10px;
   margin: 0 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   transition: .5s;
 }
 
@@ -284,6 +284,30 @@ section.services .row .col .card .card-icon i {
 .courses .card-body {
   line-height: 15px;
   font-size: 14px;
+}
+
+#course-1 {
+  background: url('../img/course-1.jpg');
+  height: 200px;
+  background-size: cover;
+}
+
+#course-2 {
+  background: url('../img/course-2.jpg');
+  height: 200px;
+  background-size: cover;
+}
+
+#course-3 {
+  background: url('../img/course-3.jpg');
+  height: 200px;
+  background-size: cover;
+}
+
+#course-4 {
+  background: url('../img/course-4.jpg');
+  height: 200px;
+  background-size: cover;
 }
 
 .courses img {
@@ -497,8 +521,7 @@ footer i {
   }
 
   .courses .card p:nth-child(3),
-  .courses .card p:nth-child(4),
-  .courses .card p:nth-child(5) {
+  .courses .card p:nth-child(4) {
     display: none;
   }
 
