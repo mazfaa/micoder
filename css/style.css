@@ -67,12 +67,12 @@ nav ul {
   border: 1px solid salmon;
   padding: 10px 15px;
   color: salmon;
+  transition: .5s;
   border-radius: 9px;
 }
 
 .auth a:hover {
   color: white;
-  transition: .5s;
   background: salmon;
 }
 
@@ -95,11 +95,11 @@ header nav ul li a:hover {
 }
 
 a {
+  transition: .5s;
   text-decoration: none;
 }
 
 .hero a:hover {
-  transition: .5s;
   opacity: .7;
 }
 
@@ -259,13 +259,17 @@ section.services .row .col .card .card-icon i {
   border-radius: 10px;
 }
 
-.courses .card {
+.courses .row .card {
   width: 20%;
   display: inline-block;
   border-radius: 10px;
   margin: 0 20px;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   transition: .5s;
+}
+
+.courses .row .card:hover {
+  cursor: pointer;
 }
 
 .courses .card-header, .courses .card-body {
@@ -329,10 +333,6 @@ section.services .row .col .card .card-icon i {
   margin-bottom: 50px;
 }
 
-.courses .card:hover {
-  cursor: pointer;
-}
-
 .testimonials .section-header {
   margin-top: 130px;
   margin-left: 80px;
@@ -383,6 +383,11 @@ section.services .row .col .card .card-icon i {
   color: white;
   margin-top: 10px;
   display: inline-block;
+  transition: .5s;
+}
+
+.invitation a:hover {
+  opacity: .7;
 }
 
 .contact {
@@ -422,6 +427,13 @@ input {
   color: white;
   padding: 8px 12px;
   border-radius: 8px;
+  transition: .5s;
+  font-size: 15px;
+}
+
+.contact button[type=submit]:hover {
+  opacity: .7;
+  cursor: pointer;
 }
 
 .author .section-header {
