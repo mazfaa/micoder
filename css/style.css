@@ -259,17 +259,13 @@ section.services .row .col .card .card-icon i {
   border-radius: 10px;
 }
 
-.courses .row .card {
+.courses .card {
   width: 20%;
   display: inline-block;
   border-radius: 10px;
   margin: 0 20px;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   transition: .5s;
-}
-
-.courses .row .card:hover {
-  cursor: pointer;
 }
 
 .courses .card-header, .courses .card-body {
@@ -331,6 +327,10 @@ section.services .row .col .card .card-icon i {
   width: 35px;
   border: 1px solid black;
   margin-bottom: 50px;
+}
+
+.courses .card:hover {
+  cursor: pointer;
 }
 
 .testimonials .section-header {
