@@ -76,7 +76,7 @@ nav ul {
   background: salmon;
 }
 
-.responsive-nav {
+.hamburger {
   display: none;
 }
 
@@ -401,7 +401,7 @@ section.services .row .col .card .card-icon i {
 
 .contact .section-header hr {
   width: 100%;
-  border: 1px solid #bbb;
+  border: 1px solid black;
   margin-left: 1px;
 }
 
@@ -429,6 +429,7 @@ input {
   border-radius: 8px;
   transition: .5s;
   font-size: 15px;
+  border: none;
 }
 
 .contact button[type=submit]:hover {
@@ -476,20 +477,27 @@ footer i {
     padding: 0 10px;
   }
   
-  nav ul, header .auth, .hero .img-jumbotron {
+  nav ul, header .auth {
     display: none;
   }
 
-  .responsive-nav {
+
+
+  .img-jumbotron {
+    margin-right: 0;
+    float: none;
+  }
+
+  .img-jumbotron img {
+    width: 400px;
+  }
+
+  .hamburger {
     display: block;
     float: right;
     margin-top: 10px;
     margin-right: 20px;
     font-size: 30px;
-  }
-
-  .hero {
-     text-align: centers;
   }
 
   .primacy {
@@ -535,6 +543,13 @@ footer i {
   .courses .card p:nth-child(3),
   .courses .card p:nth-child(4) {
     display: none;
+  }
+
+  .course-goal .section-header p, .courses .section-header p {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #aaa;
   }
 
   .invitation {
