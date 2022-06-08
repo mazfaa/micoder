@@ -481,15 +481,14 @@ footer i {
     display: none;
   }
 
-
-
   .img-jumbotron {
+    text-align: center;
     margin-right: 0;
     float: none;
   }
 
   .img-jumbotron img {
-    width: 400px;
+    width: 350px;
   }
 
   .hamburger {
